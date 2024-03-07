@@ -1,0 +1,25 @@
+.items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+h1{
+   
+    margin: 10px;
+    margin-left: 50px;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 576px) {
+    .items{
+        justify-content: space-between;
+        align-items:center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    
+}
